@@ -19,7 +19,8 @@ part 1: compilers
     - Noo Yawk
     - Hard of hearing
 - This Talk: Blue team types
-    - red team types? _On Being a type-heavy Scheme programmer in InfoSec, or, how I learnt to hate everything & love better type systems_ 
+    - red team types? _On Being a type-heavy Scheme programmer in InfoSec, or, how I learnt to hate everything & love better type systems_
+- Will probably run out time 
 
 ---
 
@@ -237,10 +238,6 @@ val retrieveData : user:User rid:int{canRead user rid} -> String
 
 ---
 
-# quasi-end point...
-
----
-
 # That "???" is kinda big tho
 
 - type equivalency
@@ -248,6 +245,16 @@ val retrieveData : user:User rid:int{canRead user rid} -> String
 - dynamic check insertion at callsite/receive site
 - prove lock-step equivalency
 - generate resulting code
+
+---
+
+# quasi-end point...
+
+## Take Aways
+
+- centralized validation
+- enforced by the compiler
+- with mechanized help from tooling
 
 ---
 
